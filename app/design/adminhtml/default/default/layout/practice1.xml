@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<practice1_adminhtml_practice1_index>
+		<reference name="content">
+			<block type="ccc_practice1/adminhtml_practice1" name="practice1" />
+		</reference>
+	</practice1_adminhtml_practice1_index>
+	<practice1_adminhtml_practice1_edit>
+		<reference name="content">
+			<block type="ccc_practice1/adminhtml_practice1_edit" />
+		</reference>
+	</practice1_adminhtml_practice1_edit>
+</layout>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.0.1">
+	<user_adminhtml_user_index>
+		<reference name="content">
+			<block type="ccc_user/adminhtml_user" name="user" />
+		</reference>
+	</user_adminhtml_user_index>
+	<user_adminhtml_user_new>
+		<reference name="content">
+			<block type="ccc_user/adminhtml_user_edit" name="user" />
+		</reference>
+	</user_adminhtml_user_new>
+	<user_adminhtml_user_edit>
+		<reference name="content">
+			<block type="ccc_user/adminhtml_user_edit" name="user" />
+		</reference>
+	</user_adminhtml_user_edit>
+</layout>
