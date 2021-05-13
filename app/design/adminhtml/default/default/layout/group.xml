@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<group_adminhtml_group_index>
+		<reference name="content">
+			<block type="ccc_group/adminhtml_group" name="group"/>
+		</reference>
+	</group_adminhtml_group_index>
+	<group_adminhtml_group_new>
+		<reference name="content">
+			<block type="ccc_group/adminhtml_group_edit" />
+		</reference>
+	</group_adminhtml_group_new>
+	<group_adminhtml_group_edit>
+		<reference name="content">
+			<block type="ccc_group/adminhtml_group_edit"/>
+		</reference>
+	</group_adminhtml_group_edit>
+</layout>

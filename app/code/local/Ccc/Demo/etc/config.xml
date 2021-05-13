@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Ccc_Demo>
+			<version>0.0.1</version>
+		</Ccc_Demo>
+	</modules>
+	<frontend>
+		<routers>
+			<r1>
+				<use>standard</use>
+				<args>
+					<module>Ccc_Demo</module>
+					<frontName>demo</frontName>
+				</args>
+			</r1>
+		</routers>
+	</frontend>
+</config>
